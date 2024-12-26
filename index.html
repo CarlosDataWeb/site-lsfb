@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+</body>
+</html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Title -->
+    <title>LSF</title>
+  </head>
+  <body>
+    <header data-aos="fade-down" data-aos-delay="200">
+      <div div data-aos="fade-down-right" data-aos-delay="300" class="logo">
+        <img src="l.jpg" alt="logo" />
+        <a href="index.html">Laboratory of Forest Sciences and biodiversity Informatics</a>
+      </div>
+
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Our Work.html">Our Work</a></li>
+            <li><a href="Programmes.html">Programmes</a></li>
+            <li><a href="student.html">Students</a></li>
+            <li><a href="Team Members.html">Team Members</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+          </ul>
+      </nav>
+
+      <div class="hamburger-menu">
+        <svg
+        width="35px"
+        height="35px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 18L20 18"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="M4 12L20 12"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="M4 6L20 6"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+      </div>
+    </header>
+    <!-- en tete -->
+     
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Responsive Image Slider</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css">
+      <style>
+        /* Global Styles */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+    
+        /* Slider Container */
+        .slider-container {
+          margin: 0 auto;
+          padding: 0;
+          max-width: 100%;
+          position: relative;
+          
+        }
+    
+        /* FlexSlider */
+        .flexslider {
+          border-radius: 10px;
+          overflow: hidden;
+        }
+    
+        .flexslider .slides img {
+          width: 100%;
+          height: auto;
+          display: block;
+          background-color: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+    
+        /* Text overlay for the first slide */
+        .text-overlay {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          color: white;
+          z-index: 10;
+        }
+    
+        .text-overlay h1 {
+          font-size: 5em;
+          margin: 0;
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+    
+        .text-overlay p {
+          font-size: 2em;
+          margin: 10px 0 0;
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+    
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .text-overlay h1 {
+            font-size: 1.8em;
+          }
+    
+          .text-overlay p {
+            font-size: 1em;
+          }
+        }
+    
+        @media (max-width: 480px) {
+          .text-overlay h1 {
+            font-size: 1.5em;
+          }
+    
+          .text-overlay p {
+            font-size: 0.9em;
+          }
+        }
+      </style>
+    </head>
+    <body>
+    
+      <!-- Slider -->
+      <div class="slider-container">
+        <!-- Text Overlay -->
+        <div class="text-overlay">
+          <h1>Welcome to LSFBI</h1>
+          <p>LSFBI: The Center of Excellence in West Africa, driving research and innovation for the preservation and sustainable management of forest ecosystems.</p>
+        </div>
+    
+        <!-- FlexSlider -->
+        <div class="flexslider">
+          <ul class="slides">
+            <br>
+            <br>
+            <br>
+            <li>
+              <img src="Laboratoirel.jpg" alt="Laboratoire">
+            </li>
+            <li>
+              <img src="Lama.jpg" alt="LSF">
+            </li>
+            <li>
+              <img src="tete5.jpg" alt="Porto">
+            </li>
+            <li>
+              <img src="tete1.jpg" alt="zONE maregageuse">
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $('.flexslider').flexslider({
+            animation: "slide",        // Animation type (slide or fade)
+            controlNav: true,          // Navigation dots
+            directionNav: true,        // Previous/Next arrows
+            slideshow: true,           // Automatic slideshow
+            slideshowSpeed: 4000,      // Time between slides (ms)
+            animationSpeed: 600,       // Animation speed (ms)
+            smoothHeight: true,        // Adjust slider height to fit content
+            start: function () {
+              // Ensure text overlay only appears on the first slide
+              $(".text-overlay").show();
+            },
+            before: function (slider) {
+              // Hide text overlay on other slides
+              if (slider.animatingTo === 0) {
+                $(".text-overlay").fadeIn();
+              } else {
+                $(".text-overlay").fadeOut();
+              }
+            }
+          });
+        });
+      </script>
+    
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Section principale */
+    .about-section {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+      background-color: #fff;
+    }
+
+    /* Style des sections de texte */
+    .about-content {
+      width: 48%;
+    }
+
+    /* Style pour les titres */
+    .about-content h2 {
+      font-size: 2rem;
+      color: #2c3e50;
+    }
+
+    /* Style pour les paragraphes */
+    .about-content p {
+      font-size: 1rem;
+     color: rgba(0, 0, 0, 0.5);
+      line-height: 1.6;
+    }
+
+    /* Style du bouton */
+    .btn {
+      padding: 10px 20px;
+      background-color: #013220; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    /* Hover effect for the button */
+    .btn:hover {
+      background-color: #2980b9;
+    }
+
+    /* Responsiveness */
+    @media screen and (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-content {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section "Who We Are" et "What We Do" -->
+  <div class="about-section">
+    <div class="about-content">
+      <h2>Who we are</h2>
+      <br>
+      <p>The Laboratory of Forest Sciences and Biodiversity Informatics (LSFBI) is one of the decentralized research units of the Faculty of Agricultural Sciences (FSA) of the University of Abomey-Calavi. Since October 2000, LSFBI focused on training and research in forest sciences and biodiversity informatics so as to provide to decision makers, demand-driven research products and skillful resource managers to support forest management and biodiversity conservation in the context of climate and global changes. The LSFBI was created as Laboratory of Forest Sciences (LSF) by the Dean of the Faculty of Agronomic Sciences by Order No. 538 – 12/UAC/FSA/D on July 6th, 2012.
+      </p>
+      <br>
+      <a href="About Us.html" class="btn">Find out more</a>
+    </div>
+    <div class="about-content">
+      <h2>What we do</h2>
+      <br>
+      <p>
+        The laboratory is made of a multidisciplinary team whose work is structured according to priority research axes:
+      </p>
+        <br>
+        <ul>
+          <li>
+            <strong>Silviculture, structure, development and sustainable management of forests</strong>
+          </li>
+        </ul>
+        <br>
+        <p>
+          This research unit deals with silviculture work from the stage of plant production, soil preparation, planting, cultural care, forest development and logging in order to contribute to the conservation and sustainable management of forests. 
+        </p>
+        <br>
+        <ul>
+          <li>
+            <strong>Non-Timber Forest Products</strong>
+          </li>
+        </ul>
+        <br>
+        <p>
+          This research unit deals with the ethno botanical study of valuable species, establishing the secular links of interest between the species and populations. The purpose is to raise awareness among populations about the conservation and sustainable use of valuable forest species. 
+        </p>
+        <br>
+        <ul>
+          <li>
+            <strong>Biodiversity Informatics and Biodiversity Conservation in the Context of Climate and Global Change</strong>
+          </li>
+        </ul>
+        <br>
+      <p>
+        This research unit concerns the analysis of biodiversity data, in connection with climate change and environmental factors in general, to generate results to inform decision-making on biodiversity conservation in the context of climate and global change
+      </p>    
+      <br>
+      <a href="About Us.html" class="btn">Find out more</a>
+    </div>
+  </div>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive News Section</title>
+  <style>
+    /* Titre principal */
+    .news-title-main {
+    font-size: 2rem;
+    color: #013220;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    /* Section principale */
+    .news-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    /* Chaque carte d'actualité */
+    .news-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 30%; /* Largeur pour les écrans larges */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    /* Effet hover */
+    .news-card:hover {
+      transform: scale(1.03);
+    }
+
+    /* Image */
+    .news-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    /* Date */
+    .news-date {
+      font-size: 0.9rem;
+      color: #999;
+      margin: 10px;
+    }
+
+    /* Titre */
+    .news-title {
+      font-size: 1.2rem;
+      margin: 10px;
+      color: #333;
+    }
+
+    /* Description */
+    .news-description {
+      font-size: 1rem;
+      margin: 10px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .news-card {
+        width: 45%; /* Deux cartes par ligne */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .news-card {
+        width: 100%; /* Une seule carte par ligne */
+      }
+    }
+  </style>
+</head>
+<body>
+  <br>
+  <br>
+  <h1 class="news-title-main">News Highlights</h1>
+  <div class="news-section">
+    <div class="news-card">
+      <img src="graduate.jpg" alt="News Image" class="news-image">
+      <p class="news-date">21 November 2024</p>
+      <h3 class="news-title">Master Science Students graduated </h3>
+      <p class="news-description">
+        University of  Abomey-Calavi
+      </p>
+    </div>
+
+    <div class="news-card">
+      <img src="GJ.jpg" alt="News Image" class="news-image">
+      <p class="news-date">8 November 2024</p>
+      <h3 class="news-title">Prof. Jean Cossi GANGLO</h3>
+      <p class="news-description">
+        The Founding Director of lsf, University of Abomey-Calavi, Prof. Jean Cossi GANGLO has been elected in GBIF...
+      </p>
+    </div>
+
+    <div class="news-card">
+      <img src="gbifm.jpg" alt="News Image" class="news-image">
+      <p class="news-date">6 November 2024</p>
+      <h3 class="news-title">LSF Introduces </h3>
+      <p class="news-description">
+        Laboratory of Forest Sciences (LSF), University of Abomey-Calavi, in partnership with GBIF Partnership for Inclusive Transformation...
+      </p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+</body>
+</html>
+
+<!-- Impact Section -->
+<section id="impact" style="background-color: #013220; color: #fff; padding: 50px 20px; background-image: non;">
+  <div class="container" style="max-width: 1200px; margin: auto; text-align: center;">
+    <!-- Title -->
+    <h2 data-aos="fade-right" data-aos-delay="200" style="font-size: 2.5em; margin-bottom: 20px; font-weight: bold;">Our Scientific Impact</h2>
+    <p data-aos="fade-right" data-aos-delay="200" style="font-size: 1.2em; margin-bottom: 40px;">Our laboratory is committed to advancing research and making a difference in the scientific community and beyond.</p>
+
+    <!-- Statistics -->
+    <div class="impact-stats" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-bottom: 50px;">
+      <div class="stat" style="text-align: center; flex: 1; min-width: 200px;">
+        <h3 style="font-size: 2em; margin-bottom: 10px; font-weight: bold;">50+</h3>
+        <p>Peer-Reviewed Publications</p>
+      </div>
+      <div class="stat" style="text-align: center; flex: 1; min-width: 200px;">
+        <h3 style="font-size: 2em; margin-bottom: 10px; font-weight: bold;">10</h3>
+        <p>International Collaborations</p>
+      </div>
+      <div class="stat" style="text-align: center; flex: 1; min-width: 200px;">
+        <h3 style="font-size: 2em; margin-bottom: 10px; font-weight: bold;">5</h3>
+        <p>Patents Filed</p>
+      </div>
+      <div class="stat" style="text-align: center; flex: 1; min-width: 200px;">
+        <h3 style="font-size: 2em; margin-bottom: 10px; font-weight: bold;">200+</h3>
+        <p>Citations in 2024</p>
+      </div>
+    </div>
+  </section> 
+
+<!-- partnership -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Partners</title>
+  <style>
+    /* Section "Our Partners" */
+    .our-partners {
+      padding: 50px 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .our-partners h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .our-partners .partners {
+      display: flex;
+      flex-wrap: wrap; /* Pour rendre les images flexibles */
+      justify-content: center;
+      gap: 20px; /* Espacement entre les images */
+    }
+
+    .our-partners .partners a img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .our-partners .partners a img:hover {
+      transform: scale(1.1); /* Zoom sur survol */
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .our-partners h1 {
+        font-size: 28px;
+      }
+
+      .our-partners .partners a img {
+        width: 150px; /* Réduction de la taille des images sur les petits écrans */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .our-partners h1 {
+        font-size: 24px;
+      }
+
+      .our-partners .partners {
+        flex-direction: column; /* Images en colonne sur très petits écrans */
+      }
+
+      .our-partners .partners a img {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="our-partners">
+    <div class="container">
+      <div class="content">
+        <h1 data-aos="fade-right" data-aos-delay="200"><strong>Our Partners</strong></h1>
+        <div class="partners">
+          <a href="https://www.gbif.org/fr/">
+            <img src="images.png" alt="GBIF">
+          </a>
+          <a href="https://jrsbiodiversity.org/">
+            <img src="jrs.webp" alt="JRS Biodiversity Foundation">
+          </a>
+          <a href="https://www.ku.edu/">
+            <img src="ku.png" alt="University of Kansas">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Section</title>
+  <style>
+    /* Style de base pour la section principale */
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 50vh; /* Hauteur ajustée */
+      overflow: hidden;
+    }
+
+    /* Style de l'image */
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* S'assure que l'image couvre tout en gardant ses proportions */
+      object-position: top; /* Permet de recentrer sur le haut pour voir les visages */
+    }
+
+    /* Style du fond noir transparent couvrant toute l'image */
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Noir avec transparence */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Style du texte superposé */
+    .hero-text {
+      text-align: center;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px; /* Largeur maximale */
+    }
+
+    /* Style du titre */
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    /* Style du bouton */
+    .hero-text button {
+      background-color: #013220;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero-text button:hover {
+      background-color: #013220; 
+    }
+
+    .hero-text a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero-text h1 {
+        font-size: 2rem; /* Taille réduite pour les écrans moyens */
+      }
+      .hero-text button {
+        padding: 8px 16px; /* Réduction des dimensions du bouton */
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-text h1 {
+        font-size: 1.5rem; /* Taille adaptée pour les petits écrans */
+      }
+      .hero-text {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="hero-section">
+  <img src="Graduation-Supdeco-Campus.jpeg" alt="Classe en cours" class="hero-image">
+  <div class="hero-overlay">
+    <div class="hero-text">
+      <h1>Why Study With Us</h1>
+      <button><a href="why study with us.html">Explore</a></button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<!-- Footer  -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Exemple</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+    }
+
+    body {
+      background-color: #f0f0f0;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #013220; /* Vert foncé */
+      color: #fff;
+      padding: 20px 0; /* Hauteur réduite du footer */
+      margin-top: auto;
+    }
+
+    footer .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    footer .logo img {
+    border-radius: 10px; /* Ajoute des coins arrondis au logo */
+   border: 2px solid #fff; /* Bordure blanche autour du logo */
+    }
+    footer .section {
+      flex: 1;
+      min-width: 180px;
+    }
+
+    footer .section h2 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    footer .section ul {
+      padding-left: 0;
+    }
+
+    footer .section ul li {
+      margin-bottom: 8px;
+    }
+
+    footer .section ul li a {
+      color: #fff;
+      font-size: 14px;
+      transition: color 0.3s;
+    }
+
+    footer .section ul li a:hover {
+      color: #f9b233;
+      text-decoration: underline;
+    }
+
+    footer .social-media {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    footer .social-media a {
+      font-size: 24px;
+      color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    footer .social-media a:hover {
+      transform: scale(1.1);
+    }
+
+    footer .footer-bottom {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    /* Alignement horizontal des titres */
+    footer .section {
+      display: inline-block;
+      margin-right: 30px;
+    }
+
+    footer .section:last-child {
+      margin-right: 0;
+    }
+
+    /* Adaptation pour les écrans plus petits */
+    @media (max-width: 768px) {
+      footer .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer .section {
+        margin-bottom: 15px;
+      }
+    }
+
+    /* Animation de simulation lors du clic sur les liens */
+    footer .section ul li a:active {
+      transform: scale(0.98);
+      color: #f9b233;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Contenu principal de la page -->
+  <div class="content">
+    <!-- Autres éléments de la page -->
+  </div>
+
+  <footer>
+    <div class="container">
+      <!-- Logo Section -->
+      <div class="logo">
+        <img src="l.jpg" alt="Logo de l'entreprise" width="150">
+      </div>
+
+      <!-- Sections communes alignées horizontalement -->
+      <div class="section">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Our Work.html">Our Work</a></li>
+          <li><a href="Programmes.html">Programmes</a></li>
+          <li><a href="student.html">Students</a></li>
+          <li><a href="Team Members.html">Team Members</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:info@example.com">info@lsf-uac.org</a></li>
+          <li><a href="tel:+123456789">+229 01 66 36 37 70</a></li>
+          <li>FSA, Abomey-Calavi, Benin</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#">Research Papers</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Publications</a></li>
+          <li><a href="#">Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Policies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class="social-media">
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <hr>
+      <p>&copy; 2024 Laboratory of Forest Sciences. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

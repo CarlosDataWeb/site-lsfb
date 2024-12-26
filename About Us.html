@@ -1,0 +1,738 @@
+
+<!DOCTYPE html>
+</body>
+</html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Title -->
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="l.jpg" alt="logo" />
+        <a href="index.html">Laboratory of Forest Sciences and Biodiversity Informatics</a>
+      </div>
+
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Our Work.html">Our Work</a></li>
+            <li><a href="Programmes.html">Programmes</a></li>
+            <li><a href="student.html">Students</a></li>
+            <li><a href="Team Members.html">Team Members</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+          </ul>
+      </nav>
+
+      <div class="hamburger-menu">
+        <svg
+        width="35px"
+        height="35px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4 18L20 18"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="M4 12L20 12"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <path
+          d="M4 6L20 6"
+          stroke="#ffffff"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+      </svg>
+      </div>
+    </header>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About LSF</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 300px; /* Ajustez la hauteur selon vos besoins */
+            margin: 0; /* Supprime les marges */
+            padding: 0; /* Supprime les espaces internes */
+            overflow: hidden; /* Empêche tout dépassement de l'image */
+        }
+
+        .hero-section img {
+            width: 100vw; /* Assure que l'image occupe toute la largeur de la fenêtre */
+            height: 100%; /* La hauteur correspond au conteneur */
+            object-fit: cover; /* Gère le redimensionnement pour couvrir tout l'espace */
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2.5rem; /* Taille du texte */
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-section {
+                height: 200px; /* Hauteur réduite pour les tablettes */
+            }
+
+            .hero-text {
+                font-size: 1.8rem; /* Réduction de la taille du texte */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section {
+                height: 150px; /* Hauteur réduite pour les petits écrans */
+            }
+
+            .hero-text {
+                font-size: 1.2rem; /* Texte plus petit pour les mobiles */
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <img src="ffff.jpg" alt="About WACCI">
+        <div class="hero-text">About LSF</div>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Address</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            align-items: flex-start;
+        }
+
+        .text-section {
+            flex: 2; /* Prend 2 parts de l'espace */
+            padding-right: 20px;
+        }
+
+        .text-section h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .text-section p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #555;
+        }
+
+        .image-section {
+            flex: 1; /* Prend 1 part de l'espace */
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-section img {
+            max-width: 50%; /* L'image ne dépasse jamais son conteneur */
+            height: 100px; /* Garde les proportions */
+            border-radius: 5px; /* Coins légèrement arrondis */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* Les sections passent une en dessous de l'autre */
+            }
+
+            .text-section {
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <h1>Welcome address</h1>
+            <p>
+                Welcome to the Laboratory of Forest Sciences! We are excited to share our commitment to advancing research and fostering education in the field of biodiversity conservation. As a leading institution,
+                we are dedicated to providing reliable data and credible expertise to support sustainable management 
+                practices and contribute to the global efforts in preserving ecosystems for future generations.
+
+            </p>
+            <p>
+                At our laboratory, we prioritize collaboration and innovation, working closely with local and international partners to address the most pressing environmental challenges of our time. 
+                We believe that scientific research, when paired with community involvement and a sustainable approach, can pave the way for meaningful change.
+
+            </p>
+            <p>
+                As the Director of this esteemed laboratory, I invite you to explore the wealth of knowledge we offer and encourage you to join us in our mission. Together, we can create a lasting impact on biodiversity conservation, 
+                ensuring that future generations inherit a thriving natural world.
+
+            </p>
+        </div>
+        <div class="image-section">
+            <img src="gang.jpg" alt="Directeur">
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision and Mission</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            /* background-color: #f5f5f5; */
+        }
+
+        .vision-mission-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            height: 800px;
+            /* background-color: #013220; */
+            color: #013220;
+            padding: 40px; 
+            gap: 20px;
+        }
+
+        .vision-mission-content {
+            flex: 1 1 45%;
+            max-width: 600px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 2px solid #5c8839;
+        }
+
+        .vision, .mission {
+            margin-bottom: 20px;
+        }
+
+        .vision h2, .mission h2 {
+            color: #013220;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .vision p, .mission p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .vision-mission-image {
+            flex: 1 1 45%;
+            max-width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 2px solid #5c8839;
+        }
+
+        .vision-mission-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .vision-mission-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .vision-mission-content, .vision-mission-image {
+                max-width: 100%;
+            }
+
+            .vision h2, .mission h2 {
+                font-size: 1.5rem;
+            }
+
+            .vision p, .mission p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="vision-mission-section">
+        <div class="vision-mission-content">
+            <div class="vision">
+                <h2>Vision</h2>
+                <p>A world in which, Science and Innovation provide relevant and needed knowledge to support sustainable development</p>
+            </div>
+            <div class="mission">
+                <h2>Mission</h2>
+                <p>Conduct research and training to provide biodiversity resource managers with reliable data and credible skills to develop, conserve and sustainably manage biodiversity</p>
+            </div>
+        </div>
+        <div class="vision-mission-image">
+            <img src="studentlab.jpg" alt="Microscope and plants in a laboratory">
+        </div>
+    </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Values</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #013220;
+        }
+
+        .core-values-section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            background-color: white;
+            gap: 20px;
+        }
+
+        .core-values-sidebar {
+            flex: 1 1 30%;
+            max-width: 300px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #444;
+            border-left: 5px solid #76448a;
+            padding-left: 15px;
+            line-height: 1.8;
+        }
+
+        .core-values-content {
+            flex: 1 1 65%;
+            max-width: 700px;
+        }
+
+        .value-item {
+            margin-bottom: 20px;
+        }
+
+        .value-item h3 {
+            font-size: 1.5rem;
+            color: #013220;
+            margin-bottom: 10px;
+        }
+
+        .value-item p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .core-values-section {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .core-values-sidebar {
+                max-width: 100%;
+                text-align: center;
+                border-left: none;
+                
+                border-top: 5px solid #76448a;
+                padding-left: 0;
+                padding-top: 15px;
+            }
+
+            .core-values-content {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="core-values-section">
+        <div class="core-values-sidebar">
+          LSFBI is guided by core values which underpin our operations towards achieving our objectives
+        </div>
+        <div class="core-values-content">
+            <div class="value-item">
+                <h3>Excellence</h3>
+                <p>LSFBI will strive for excellence in all its endeavors comprising the conduct and administration of our research and teaching programs.</p>
+            </div>
+            <div class="value-item">
+                <h3>Integrity</h3>
+                <p>As Director of the LSFBI, I will always do my best to be and remain a living example of integrity in order to show the way of noble behavior to the rest of the members of the Laboratory.
+
+                </p>
+            </div>
+            <div class="value-item">
+                <h3>Commitment to partners</h3>
+                <p>The LSFBI partners is composed of scientists, students, staff, decisions makers and any other end users. From data to research products, we are open-mind and committed to satisfy demand driven knowledge to support decision making on biodiversity conservation and sustainable use.</p>
+            </div>
+            <div class="value-item">
+                <h3>Culture of Mentoring</h3>
+                <p>As leader in forest sciences and biodiversity informatics across Africa we are ready to support and push forwards any initiative in the field of our expertise.</p>
+            </div>
+            <div class="value-item">
+                <h3>Accountability</h3>
+                <p>We are grateful to our donors at all scale and assured them of a production of data and research products of quality to optimally value their investments.</p>
+            </div>
+            <div class="value-item">
+                <h3>Shared Governance</h3>
+                <p>The Laboratory comprise scientists, administrators and technicians each of whom provides a perspective to be considered during the process of setting future directions and making decisions.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Stories Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .success-stories {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+
+        .text-section {
+            flex: 1 1 40%;
+            padding: 20px;
+        }
+
+        .text-section h2 {
+            font-size: 2rem;
+            color: #013220;
+            margin-bottom: 20px;
+        }
+
+        .text-section a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            background-color: #013220;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .text-section a:hover {
+            background-color: #6f3c92;
+        }
+
+        .image-section {
+            flex: 1 1 60%;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .success-stories {
+                flex-direction: column;
+            }
+
+            .text-section {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="success-stories">
+        <div class="text-section">
+            <h2>Success Stories</h2>
+            <a href="#">Explore</a>
+        </div>
+        <div class="image-section">
+            <img src="Specimen.jpg" alt="specimen">
+        </div>
+    </section>
+</body>
+</html>
+
+<!-- Footer  -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Exemple</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+    }
+
+    body {
+      background-color: #f0f0f0;
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #013220; /* Vert foncé */
+      color: #fff;
+      padding: 20px 0; /* Hauteur réduite du footer */
+      margin-top: auto;
+    }
+
+    footer .container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    footer .logo img {
+    border-radius: 10px; /* Ajoute des coins arrondis au logo */
+   border: 2px solid #fff; /* Bordure blanche autour du logo */
+    }
+    footer .section {
+      flex: 1;
+      min-width: 180px;
+    }
+
+    footer .section h2 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    footer .section ul {
+      padding-left: 0;
+    }
+
+    footer .section ul li {
+      margin-bottom: 8px;
+    }
+
+    footer .section ul li a {
+      color: #fff;
+      font-size: 14px;
+      transition: color 0.3s;
+    }
+
+    footer .section ul li a:hover {
+      color: #f9b233;
+      text-decoration: underline;
+    }
+
+    footer .social-media {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    footer .social-media a {
+      font-size: 24px;
+      color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    footer .social-media a:hover {
+      transform: scale(1.1);
+    }
+
+    footer .footer-bottom {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 12px;
+      color: #ccc;
+    }
+
+    /* Alignement horizontal des titres */
+    footer .section {
+      display: inline-block;
+      margin-right: 30px;
+    }
+
+    footer .section:last-child {
+      margin-right: 0;
+    }
+
+    /* Adaptation pour les écrans plus petits */
+    @media (max-width: 768px) {
+      footer .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer .section {
+        margin-bottom: 15px;
+      }
+    }
+
+    /* Animation de simulation lors du clic sur les liens */
+    footer .section ul li a:active {
+      transform: scale(0.98);
+      color: #f9b233;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Contenu principal de la page -->
+  <div class="content">
+    <!-- Autres éléments de la page -->
+  </div>
+
+  <footer>
+    <div class="container">
+      <!-- Logo Section -->
+      <div class="logo">
+        <img src="l.jpg" alt="Logo de l'entreprise" width="150">
+      </div>
+
+      <!-- Sections communes alignées horizontalement -->
+      <div class="section">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About Us.html">About Us</a></li>
+          <li><a href="Our Work.html">Our Work</a></li>
+          <li><a href="Programmes.html">Programmes</a></li>
+          <li><a href="student.html">Students</a></li>
+          <li><a href="Team Members.html">Team Members</a></li>
+          <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="mailto:info@example.com">info@lsf-uac.org</a></li>
+          <li><a href="tel:+123456789">+229 01 66 36 37 70</a></li>
+          <li>FSA, Abomey-Calavi, Benin</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#">Research Papers</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Publications</a></li>
+          <li><a href="#">Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Policies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class="social-media">
+      <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <hr>
+      <p>&copy; 2024 Laboratory of Forest Sciences. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
